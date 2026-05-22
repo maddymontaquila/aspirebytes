@@ -37,9 +37,9 @@ lerna-debug.log*
 # Aspire local state
 **/.aspire/
 **/.dcp/
+**/.modules/
 
 # Local agent, environment, and editor files
-**/.agents/
 .env
 .env.*
 !.env.example
@@ -48,6 +48,8 @@ lerna-debug.log*
 .vs/
 .DS_Store
 Thumbs.db
+**/.agents/
 
 .script.md
 .scripts/
+
