@@ -48,3 +48,6 @@ lerna-debug.log*
 .vs/
 .DS_Store
 Thumbs.db
+
+.script.md
+.scripts/
