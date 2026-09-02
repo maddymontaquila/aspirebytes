@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "aspire:lint": "eslint apphost.ts",
+    "aspire:lint": "eslint apphost.mts",
     "aspire:start": "aspire run",
     "aspire:build": "tsc -p tsconfig.apphost.json",
     "aspire:dev": "tsc --watch -p tsconfig.apphost.json",
@@ -18,7 +18,7 @@
     "vscode-jsonrpc": "^8.2.0"
   },
   "engines": {
-    "node": "^20.19.0 || ^22.13.0 || >=24"
+    "node": "^20.19.0 || ^22.13.0 || \u003E=24"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

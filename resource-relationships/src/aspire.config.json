@@ -1,10 +1,10 @@
 {
   "appHost": {
-    "path": "apphost.ts",
+    "path": "apphost.mts",
     "language": "typescript/nodejs"
   },
   "sdk": {
-    "version": "13.3.5"
+    "version": "13.5.3"
   },
   "profiles": {
     "https": {
@@ -24,7 +24,7 @@
     }
   },
   "packages": {
-    "Aspire.Hosting.JavaScript": "13.3.5",
-    "Aspire.Hosting.Redis": "13.3.5"
+    "Aspire.Hosting.JavaScript": "13.5.3",
+    "Aspire.Hosting.Redis": "13.5.3"
   }
 }
