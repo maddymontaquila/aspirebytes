@@ -17,7 +17,7 @@ const api = await builder
 // Run the Vite frontend after the API and inject the API URL for local proxying.
 const frontend = await builder
     .addViteApp("frontend", "./frontend")
-    .withReference(api)
+    .withReference(api, { name: "BACKEND"})
     .withReference(cache)
     .withEnvironment("VITE_DB_URL", externalSvc)
     .withEnvironment("VITE_API_URL", api.getEndpoint("http"));
